@@ -79,6 +79,46 @@
                     </div>
                   </td>
                 </tr>
+                <tr>
+                  <td>3</td>
+                  <td>Aku Siap Berkomitmen</td>
+                  <td>Novarolista Banunaek</td>
+                  <td>2016</td>
+                  <td>
+                    <div class="btn-group-vertical">
+                      <button type="button" class="btn btn-default" onClick="window.location.href='program-detail.php'">
+                        <div class="pull-left">
+                          <i class="fa fa-eye"></i> Detail
+                        </div>
+                      </button>
+                      <button type="button" class="btn btn-danger" onClick="">
+                        <div class="pull-left">
+                          <i class="fa fa-trash"></i> Delete
+                        </div>
+                      </button>
+                    </div>
+                  </td>
+                </tr>
+                <tr>
+                  <td>4</td>
+                  <td>Menunggu Dia Putus</td>
+                  <td>Nyoman</td>
+                  <td>2016</td>
+                  <td>
+                    <div class="btn-group-vertical">
+                      <button type="button" class="btn btn-default" onClick="window.location.href='program-detail.php'">
+                        <div class="pull-left">
+                          <i class="fa fa-eye"></i> Detail
+                        </div>
+                      </button>
+                      <button type="button" class="btn btn-danger" onClick="">
+                        <div class="pull-left">
+                          <i class="fa fa-trash"></i> Delete
+                        </div>
+                      </button>
+                    </div>
+                  </td>
+                </tr>
                 </tbody>
               </table>
             </div>
