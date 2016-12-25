@@ -27,10 +27,10 @@
             <div class="box box-warning">
               <div class="box-body box-profile">
                 <lavel>Preview</lavel>
-                <img class="img-responsive" src="../dist/img/no-image.png" alt="Program Picture">
+                <img class="img-responsive" src="../dist/img/photo1.png" alt="Program Picture">
                 <hr>
                 <lavel>Browse Foto :</lavel>
-                <input name="foto" type="file">
+                <input required name="foto" type="file" id="fotoArtikel">
               </div>
               <!-- /.box-body -->
             </div>
@@ -41,17 +41,26 @@
             <!-- About Me Box -->
             <div class="box box-warning">
               <div class="box-header with-border">
-                <h3 class="box-title"><i class="fa fa-plus margin-r-5"></i>Tambah Program</h3>
+                <h3 class="box-title"><i class="fa fa-plus margin-r-5"></i>Required Data</h3>
               </div>
               <!-- /.box-header -->
               <div class="box-body">
                 <div class="form-group">
-                  <label>Nama Program</label>
-                  <input name="nama" type="text" class="form-control" placeholder="nama program">
+                  <label>Pilih Program</label>
+                  <select required name="nama" class="form-control">
+                    <option value="" disabled selected hidden>Pilih Program</option>
+                    <option>Meong</option>
+                    <option>Bungut</option>
+                    <option>7 Hari 7 Malam</option>
+                  </select>
                 </div>
                 <div class="form-group">
-                  <label>Deskripsi Program</label>
-                  <input name="deskripsi" type="text" class="form-control" placeholder="deskripsi program">
+                  <label>Pilih Crew</label>
+                  <select required name="nama" class="form-control">
+                    <option value="" disabled selected hidden>Pilih Crew</option>
+                    <option>Meong</option>
+                    <option>Kuluk Monk</option>
+                  </select>
                 </div>
               </div>
               <!-- /.box-body -->

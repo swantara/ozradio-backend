@@ -27,7 +27,7 @@
             <div class="box box-warning">
               <div class="box-body box-profile">
                 <lavel>Preview</lavel>
-                <img class="img-responsive" src="../dist/img/photo1.png" alt="Program Picture">
+                <img class="img-responsive" src="../dist/img/no-image.png" alt="Program Picture">
                 <hr>
                 <lavel>Browse Foto :</lavel>
                 <input name="foto" type="file" id="fotoArtikel">

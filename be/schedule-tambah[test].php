@@ -71,10 +71,19 @@
                     <option>Kuluk Monk</option>
                   </select>
                 </div>
-                <!-- dinamic -->
-                <div class="form-group" id="change">
-                  
+                <div class="form-group">
+                  <label>Ne Yen Program Special</label><br>
+                  <div class='input-group date'>
+                    <div class='input-group-addon'>
+                      <i class='fa fa-calendar'></i>
+                    </div>
+                    <input type='text' class='form-control pull-right' id='datepicker'>
+                  </div>
                 </div>
+                <!-- dinamic -->
+                <!-- <div class="form-group" id="change">
+                  
+                </div> -->
               </div>
               <!-- /.box-body -->
               <div class="box-footer">
@@ -92,8 +101,7 @@
     </div>
 
 <!-- bootstrap datepicker -->
-<script src="../plugins/datepicker/bootstrap-datepicker.js"></script>
-<script>
+<!-- <script>
   function myFunction() {
       var x = document.getElementById("jenis");
       var mingguan = "<label>Ne Yen Program Mingguan</label><br>" + 
@@ -128,6 +136,17 @@
 
   $(function (){
     myFunction();
+  });
+</script> -->
+<!-- Bootstrap 3.3.6 -->
+<script src="../bootstrap/js/bootstrap.min.js"></script>
+<script src="../plugins/datepicker/bootstrap-datepicker.js"></script>
+<script>
+  $(function () {
+    //Date picker
+    $('#datepicker').datepicker({
+      autoclose: true
+    });
   });
 </script>
 <?php

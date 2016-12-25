@@ -23,19 +23,11 @@
           </a>
           <ul class="treeview-menu">
             <li><a href="song.php"><i class="fa fa-circle-o text-yellow"></i> All Song</a></li>
-            <li><a href="song-category.php"><i class="fa fa-circle-o text-yellow"></i> Song Category 1</a></li>
-            <li><a href="song-category.php"><i class="fa fa-circle-o text-yellow"></i> Song Category 2</a></li>
+            <li><a href="song-category.php"><i class="fa fa-circle-o text-yellow"></i> Lagu Galau</a></li>
+            <li><a href="song-category.php"><i class="fa fa-circle-o text-yellow"></i> Lagu Supir Arab</a></li>
           </ul>
         </li>
-        <li>
-          <a href="#">
-            <i class="fa fa-bar-chart"></i> <span>Chart</span> <i class="fa fa-angle-left pull-right"></i>
-          </a>
-          <ul class="treeview-menu">
-            <li><a href="chart_category.php"><i class="fa fa-circle-o text-yellow"></i> Chart Category 1</a></li>
-            <li><a href="chart_category.php"><i class="fa fa-circle-o text-yellow"></i> Chart Category 2</a></li>
-          </ul>
-        </li>
+        <li><a href="chart.php"><i class="fa fa-bar-chart"></i> <span>Chart</span></a></li>
         <li class="header"></li>
         <li><a href="news.php"><i class="fa fa-comments"></i> <span>OZ News</span></a></li>
         <li><a href="advertising.php"><i class="fa fa-bullhorn"></i> <span>Advertising</span></a></li>

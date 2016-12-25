@@ -13,24 +13,23 @@
       <!-- Content Header (Page header) -->
       <section class="content-header">
         <h1>
-          Program
-          <small>Tambah Program</small>
+          News
+          <small>Detail News</small>
         </h1>
       </section>
 
       <!-- Main content -->
       <section class="content">
         <div class="row">
-        <form action"" method="post" enctype="multipart/form-data">
           <div class="col-md-3">
             <!-- Profile Image -->
             <div class="box box-warning">
               <div class="box-body box-profile">
-                <lavel>Preview</lavel>
                 <img class="img-responsive" src="../dist/img/no-image.png" alt="Program Picture">
-                <hr>
-                <lavel>Browse Foto :</lavel>
-                <input name="foto" type="file">
+                <hr/>
+                <button type="button" class="btn btn-default btn-block" onClick="window.location.href='news-edit.php'">
+                  <i class="fa fa-edit text-yellow"></i> Edit
+                </button>
               </div>
               <!-- /.box-body -->
             </div>
@@ -41,30 +40,30 @@
             <!-- About Me Box -->
             <div class="box box-warning">
               <div class="box-header with-border">
-                <h3 class="box-title"><i class="fa fa-plus margin-r-5"></i>Tambah Program</h3>
+                <h3 class="box-title"><i class="fa fa-quote-right margin-r-5"></i> Deskripsi</h3>
               </div>
               <!-- /.box-header -->
               <div class="box-body">
-                <div class="form-group">
-                  <label>Nama Program</label>
-                  <input name="nama" type="text" class="form-control" placeholder="nama program">
-                </div>
-                <div class="form-group">
-                  <label>Deskripsi Program</label>
-                  <input name="deskripsi" type="text" class="form-control" placeholder="deskripsi program">
-                </div>
+                <strong>Judul</strong>
+                <p>Ten Kayun Nyentana</p>
+                <hr/>
+                <strong>Content</strong>
+                <p>Agus D. Nugraha ternyata ten kayun nyentana</p>
+                <hr/>
+                <strong>Author</strong>
+                <p>Pria Sejati</p>
+                <hr/>
+                <strong>Link</strong>
+                <p>www.priasejati.com</p>
               </div>
               <!-- /.box-body -->
-              <div class="box-footer">
-                <a href="program.php" class="btn btn-default"><i class="fa fa-close"></i> Cancel</a>
-                <button type="submit" class="btn btn-default pull-right"><i class="fa fa-check text-green"></i> Submit</button>
-              </div>
             </div>
             <!-- /.box -->
           </div>
           <!-- /.col -->
-        </form>
         </div>
+        <!-- /.row -->
+
       </section>
       <!-- /.content -->
     </div>

@@ -13,7 +13,7 @@
     <!-- Content Header (Page header) -->
     <section class="content-header">
       <h1>
-        All Song
+        Song - Galau
         <small>Daftar lagu yang ada di sistem</small>
       </h1>
     </section>

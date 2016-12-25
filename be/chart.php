@@ -13,7 +13,7 @@
     <!-- Content Header (Page header) -->
     <section class="content-header">
       <h1>
-        All Song
+        Song Chart
         <small>Daftar lagu yang ada di sistem</small>
       </h1>
     </section>
@@ -32,6 +32,7 @@
                 <thead>
                 <tr>
                   <th style="width: 10px">No</th>
+                  <th style="width: 10px">Posisi</th>
                   <th>Judul</th>
                   <th>Artis</th>
                   <th>Rilis</th>
@@ -41,19 +42,15 @@
                 <tbody>
                 <tr>
                   <td>1</td>
+                  <td>2</td>
                   <td>Ten Kayun Nyentana</td>
                   <td>Agus D. Nugraha</td>
                   <td>2016</td>
                   <td>
                     <div class="btn-group-vertical">
-                      <button type="button" class="btn btn-default" onClick="window.location.href='song-detail.php'">
+                      <button type="button" class="btn btn-default" onClick="window.location.href='chart-detail.php'">
                         <div class="pull-left">
                           <i class="fa fa-eye"></i> Detail
-                        </div>
-                      </button>
-                      <button type="button" class="btn btn-danger" onClick="">
-                        <div class="pull-left">
-                          <i class="fa fa-trash"></i> Delete
                         </div>
                       </button>
                     </div>
@@ -61,19 +58,15 @@
                 </tr>
                 <tr>
                   <td>2</td>
+                  <td>7</td>
                   <td>2 Istri Cukup</td>
                   <td>Putu Krisna D.</td>
                   <td>2016</td>
                   <td>
                     <div class="btn-group-vertical">
-                      <button type="button" class="btn btn-default" onClick="window.location.href='song-detail.php'">
+                      <button type="button" class="btn btn-default" onClick="window.location.href='chart-detail.php'">
                         <div class="pull-left">
                           <i class="fa fa-eye"></i> Detail
-                        </div>
-                      </button>
-                      <button type="button" class="btn btn-danger" onClick="">
-                        <div class="pull-left">
-                          <i class="fa fa-trash"></i> Delete
                         </div>
                       </button>
                     </div>
@@ -81,19 +74,15 @@
                 </tr>
                 <tr>
                   <td>3</td>
+                  <td>6</td>
                   <td>Aku Siap Berkomitmen</td>
                   <td>Novarolista Banunaek</td>
                   <td>2016</td>
                   <td>
                     <div class="btn-group-vertical">
-                      <button type="button" class="btn btn-default" onClick="window.location.href='song-detail.php'">
+                      <button type="button" class="btn btn-default" onClick="window.location.href='chart-detail.php'">
                         <div class="pull-left">
                           <i class="fa fa-eye"></i> Detail
-                        </div>
-                      </button>
-                      <button type="button" class="btn btn-danger" onClick="">
-                        <div class="pull-left">
-                          <i class="fa fa-trash"></i> Delete
                         </div>
                       </button>
                     </div>
@@ -101,19 +90,15 @@
                 </tr>
                 <tr>
                   <td>4</td>
+                  <td>15</td>
                   <td>Menunggu Dia Putus</td>
                   <td>Nyoman</td>
                   <td>2016</td>
                   <td>
                     <div class="btn-group-vertical">
-                      <button type="button" class="btn btn-default" onClick="window.location.href='song-detail.php'">
+                      <button type="button" class="btn btn-default" onClick="window.location.href='chart-detail.php'">
                         <div class="pull-left">
                           <i class="fa fa-eye"></i> Detail
-                        </div>
-                      </button>
-                      <button type="button" class="btn btn-danger" onClick="">
-                        <div class="pull-left">
-                          <i class="fa fa-trash"></i> Delete
                         </div>
                       </button>
                     </div>
