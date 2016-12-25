@@ -70,7 +70,9 @@
                     <option>Meong</option>
                     <option>Kuluk Monk</option>
                   </select>
+
                 </div>
+
                 <!-- dinamic -->
                 <div class="form-group" id="change">
                   
@@ -118,12 +120,14 @@
 
       if (x.value == 'mingguan') {
         document.getElementById("change").innerHTML = mingguan;
-      }else 
+      }else {
         document.getElementById("change").innerHTML = spesial;
-
-       $('#datepicker').datepicker({
+      }
+      
+      
+    $('#datepicker').datepicker({
         autoclose: true
-      });
+      });      
   } 
 
   $(function (){
