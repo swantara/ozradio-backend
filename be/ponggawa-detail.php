@@ -13,8 +13,8 @@
       <!-- Content Header (Page header) -->
       <section class="content-header">
         <h1>
-          Program
-          <small>Detail Program</small>
+          Ponggawa
+          <small>Detail Ponggawa</small>
         </h1>
       </section>
 
@@ -27,7 +27,7 @@
               <div class="box-body box-profile">
                 <img class="img-responsive" src="../dist/img/no-image.png" alt="Program Picture">
                 <hr/>
-                <button type="button" class="btn btn-default btn-block" onClick="window.location.href='song-edit.php'">
+                <button type="button" class="btn btn-default btn-block" onClick="window.location.href='ponggawa-edit.php'">
                   <i class="fa fa-edit text-yellow"></i> Edit
                 </button>
               </div>
@@ -44,23 +44,23 @@
               </div>
               <!-- /.box-header -->
               <div class="box-body">
-                <strong>Judul</strong>
-                <p>Ten Kayun Nyentana</p>
+                <strong>Nama</strong>
+                <p>Ekok PEPKTL</p>
                 <hr/>
-                <strong>Artis</strong>
-                <p>Agus D. Nugraha</p>
+                <strong>Gender</strong>
+                <p>Dipertanyakan</p>
                 <hr/>
-                <strong>Album</strong>
-                <p>Pria Sejati 2016</p>
+                <strong>Birthday</strong>
+                <p>mm/dd/yyyy</p>
                 <hr/>
-                <strong>Rilis</strong>
-                <p>2016</p>
+                <strong>About</strong>
+                <p>Ekok itu orang yang ganteng</p>
                 <hr/>
-                <strong>Genre</strong>
-                <p>Pop Bali - Tabanan - Beraban</p>
+                <strong>Facebook</strong>
+                <p>Putu Eko Prasetya</p>
                 <hr/>
-                <strong>Kategori</strong>
-                <p>Galau</p>
+                <strong>Twitter</strong>
+                <p>kok ekok</p>
               </div>
               <!-- /.box-body -->
             </div>

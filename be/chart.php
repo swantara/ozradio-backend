@@ -23,10 +23,6 @@
       <div class="row">
         <div class="col-xs-12">
           <div class="box box-warning">
-            <!-- /.box-header -->
-            <div class="box-header">
-              <a href="song-tambah.php" class="btn btn-default"><i class="fa fa-plus text-green"></i> Tambah Lagu</a>
-            </div>
             <div class="box-body">
               <table id="example1" class="table table-bordered table-striped">
                 <thead>

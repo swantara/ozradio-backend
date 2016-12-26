@@ -13,8 +13,8 @@
     <!-- Content Header (Page header) -->
     <section class="content-header">
       <h1>
-        News List
-        <small>Daftar news yang ada di sistem</small>
+        Partner List
+        <small>Daftar partner yang ada di sistem</small>
       </h1>
     </section>
 
@@ -28,19 +28,19 @@
                 <thead>
                 <tr>
                   <th style="width: 10px">No</th>
-                  <th>Judul</th>
-                  <th>Author</th>
+                  <th>Partner</th>
+                  <th>Status</th>
                   <th style="width: 10px">Act</th>
                 </tr>
                 </thead>
                 <tbody>
                 <tr>
                   <td>1</td>
-                  <td>Ten Kayun Nyentana</td>
-                  <td>Agus D. Nugraha</td>
+                  <td>XL</td>
+                  <td>Aktif</td>
                   <td>
                     <div class="btn-group-vertical">
-                      <button type="button" class="btn btn-default" onClick="window.location.href='news-detail.php'">
+                      <button type="button" class="btn btn-default" onClick="window.location.href='partner-detail.php'">
                         <div class="pull-left">
                           <i class="fa fa-eye"></i> Detail
                         </div>
@@ -55,11 +55,11 @@
                 </tr>
                 <tr>
                   <td>2</td>
-                  <td>2 Istri Cukup</td>
-                  <td>Putu Krisna D.</td>
+                  <td>Indomie</td>
+                  <td>Tidak Aktif</td>
                   <td>
                     <div class="btn-group-vertical">
-                      <button type="button" class="btn btn-default" onClick="window.location.href='news-detail.php'">
+                      <button type="button" class="btn btn-default" onClick="window.location.href='partner-detail.php'">
                         <div class="pull-left">
                           <i class="fa fa-eye"></i> Detail
                         </div>
@@ -74,11 +74,11 @@
                 </tr>
                 <tr>
                   <td>3</td>
-                  <td>Aku Siap Berkomitmen</td>
-                  <td>Novarolista Banunaek</td>
+                  <td>Indosat</td>
+                  <td>Aktif</td>
                   <td>
                     <div class="btn-group-vertical">
-                      <button type="button" class="btn btn-default" onClick="window.location.href='news-detail.php'">
+                      <button type="button" class="btn btn-default" onClick="window.location.href='partner-detail.php'">
                         <div class="pull-left">
                           <i class="fa fa-eye"></i> Detail
                         </div>
@@ -93,11 +93,11 @@
                 </tr>
                 <tr>
                   <td>4</td>
-                  <td>Menunggu Dia Putus</td>
-                  <td>Nyoman</td>
+                  <td>Durex</td>
+                  <td>Tidak Aktif</td>
                   <td>
                     <div class="btn-group-vertical">
-                      <button type="button" class="btn btn-default" onClick="window.location.href='news-detail.php'">
+                      <button type="button" class="btn btn-default" onClick="window.location.href='partner-detail.php'">
                         <div class="pull-left">
                           <i class="fa fa-eye"></i> Detail
                         </div>
@@ -114,7 +114,7 @@
               </table>
             </div>
             <div class="box-footer">
-              <a href="news-tambah.php" class="btn btn-default"><i class="fa fa-plus text-green"></i> New News</a>
+              <a href="partner-tambah.php" class="btn btn-default"><i class="fa fa-plus text-green"></i> New Partner</a>
             </div>
             <!-- /.box-body -->
           </div>

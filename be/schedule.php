@@ -48,7 +48,7 @@
                   </td>
                   <td>
                     <div class="btn-group-vertical">
-                      <button type="button" class="btn btn-default" onClick="window.location.href='program-detail.php'">
+                      <button type="button" class="btn btn-default" onClick="window.location.href='schedule-detail.php'">
                         <div class="pull-left">
                           <i class="fa fa-eye"></i> Detail
                         </div>

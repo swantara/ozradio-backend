@@ -35,7 +35,7 @@
         <li><a href="ponggawa.php"><i class="fa fa-users"></i> <span>Ponggawa</span></a></li>
         <li><a href="about.php"><i class="fa fa-yelp"></i> <span>About</span></a></li>
         <li class="header"></li>
-        <li><a href="#"><i class="fa fa-power-off text-red"></i> <span>Logout</span></a></li>
+        <li><a href="login.php"><i class="fa fa-power-off text-red"></i> <span>Logout</span></a></li>
       </ul>
     </section>
     <!-- /.sidebar -->

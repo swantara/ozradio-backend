@@ -13,8 +13,8 @@
       <!-- Content Header (Page header) -->
       <section class="content-header">
         <h1>
-          Program
-          <small>Detail Program</small>
+          Advertising
+          <small>Detail Advertising</small>
         </h1>
       </section>
 
@@ -27,7 +27,7 @@
               <div class="box-body box-profile">
                 <img class="img-responsive" src="../dist/img/no-image.png" alt="Program Picture">
                 <hr/>
-                <button type="button" class="btn btn-default btn-block" onClick="window.location.href='song-edit.php'">
+                <button type="button" class="btn btn-default btn-block" onClick="window.location.href='advertising-edit.php'">
                   <i class="fa fa-edit text-yellow"></i> Edit
                 </button>
               </div>
@@ -45,22 +45,13 @@
               <!-- /.box-header -->
               <div class="box-body">
                 <strong>Judul</strong>
-                <p>Ten Kayun Nyentana</p>
+                <p>Durex</p>
                 <hr/>
-                <strong>Artis</strong>
-                <p>Agus D. Nugraha</p>
+                <strong>Link</strong>
+                <p>www.durex.com</p>
                 <hr/>
-                <strong>Album</strong>
-                <p>Pria Sejati 2016</p>
-                <hr/>
-                <strong>Rilis</strong>
-                <p>2016</p>
-                <hr/>
-                <strong>Genre</strong>
-                <p>Pop Bali - Tabanan - Beraban</p>
-                <hr/>
-                <strong>Kategori</strong>
-                <p>Galau</p>
+                <strong>Status</strong>
+                <p>Aktif</p>
               </div>
               <!-- /.box-body -->
             </div>

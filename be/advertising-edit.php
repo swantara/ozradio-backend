@@ -13,8 +13,8 @@
       <!-- Content Header (Page header) -->
       <section class="content-header">
         <h1>
-          Program
-          <small>Tambah Program</small>
+          Advertising
+          <small>Edit Advertising</small>
         </h1>
       </section>
 
@@ -30,7 +30,7 @@
                 <img class="img-responsive" src="../dist/img/no-image.png" alt="Program Picture">
                 <hr>
                 <lavel>Browse Foto :</lavel>
-                <input name="foto" type="file">
+                <input required name="foto" type="file" id="fotoArtikel">
               </div>
               <!-- /.box-body -->
             </div>
@@ -41,22 +41,30 @@
             <!-- About Me Box -->
             <div class="box box-warning">
               <div class="box-header with-border">
-                <h3 class="box-title"><i class="fa fa-plus margin-r-5"></i>Tambah Program</h3>
+                <h3 class="box-title"><i class="fa fa-edit margin-r-5"></i>Edit Advertising</h3>
               </div>
               <!-- /.box-header -->
               <div class="box-body">
                 <div class="form-group">
-                  <label>Nama Program</label>
-                  <input name="nama" type="text" class="form-control" placeholder="nama program">
+                  <label>Judul</label>
+                  <input required name="judul" type="text" class="form-control" value="Durex">
                 </div>
                 <div class="form-group">
-                  <label>Deskripsi Program</label>
-                  <input name="deskripsi" type="text" class="form-control" placeholder="deskripsi program">
+                  <label>Link</label>
+                  <input required name="link" type="text" class="form-control" value="www.durex.com">
+                </div>
+                <div class="form-group">
+                  <label>Status</label>
+                  <select required name="status" class="form-control">
+                    <option value="" disabled hidden>Pilih Status</option>
+                    <option value="1" >Aktif</option>
+                    <option value="0" selected>Tidak Aktif</option>
+                  </select>
                 </div>
               </div>
               <!-- /.box-body -->
               <div class="box-footer">
-                <a href="program.php" class="btn btn-default"><i class="fa fa-close"></i> Cancel</a>
+                <a href="advertising-detail.php" class="btn btn-default"><i class="fa fa-close"></i> Cancel</a>
                 <button type="submit" class="btn btn-default pull-right"><i class="fa fa-check text-green"></i> Submit</button>
               </div>
             </div>

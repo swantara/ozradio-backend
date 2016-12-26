@@ -13,53 +13,45 @@
       <!-- Content Header (Page header) -->
       <section class="content-header">
         <h1>
-          Chart
-          <small>Detail Chart</small>
+          About
+          <small>Detail About</small>
         </h1>
       </section>
 
       <!-- Main content -->
       <section class="content">
         <div class="row">
-          <div class="col-md-3">
-            <!-- Profile Image -->
-            <div class="box box-warning">
-              <div class="box-body box-profile">
-                <img class="img-responsive" src="../dist/img/no-image.png" alt="Program Picture">
-              </div>
-              <!-- /.box-body -->
-            </div>
-            <!-- /.box -->
-          </div>
-          <!-- /.col -->
-          <div class="col-md-9">
+          <div class="col-md-12">
             <!-- About Me Box -->
             <div class="box box-warning">
               <div class="box-header with-border">
                 <h3 class="box-title"><i class="fa fa-quote-right margin-r-5"></i> Deskripsi</h3>
+                <button type="button" class="btn btn-default pull-right" onClick="window.location.href='about-edit.php'">
+                <i class="fa fa-edit text-yellow margin-r-5"></i> Edit
+                </button>
               </div>
               <!-- /.box-header -->
               <div class="box-body">
-                <strong>Posisi</strong>
-                <p>2</p>
+                <strong>Alamat</strong>
+                <p>Alamatnya Oz</p>
                 <hr/>
-                <strong>Judul</strong>
-                <p>Ten Kayun Nyentana</p>
+                <strong>Telepon</strong>
+                <p>(0361)888888</p>
                 <hr/>
-                <strong>Artis</strong>
-                <p>Agus D. Nugraha</p>
+                <strong>Email</strong>
+                <p>oz@oz-bali.com</p>
                 <hr/>
-                <strong>Album</strong>
-                <p>Pria Sejati 2016</p>
+                <strong>Instagram</strong>
+                <p>OZ Radio Bali</p>
                 <hr/>
-                <strong>Rilis</strong>
-                <p>2016</p>
+                <strong>Facebook</strong>
+                <p>OZ Radio Bali</p>
                 <hr/>
-                <strong>Genre</strong>
-                <p>Pop Bali - Tabanan - Beraban</p>
+                <strong>Twitter</strong>
+                <p>OZ Radio Bali</p>
                 <hr/>
-                <strong>Kategori</strong>
-                <p>Galau</p>
+                <strong>Youtube</strong>
+                <p>OZ Radio Bali</p>
               </div>
               <!-- /.box-body -->
             </div>

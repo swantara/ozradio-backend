@@ -13,8 +13,8 @@
       <!-- Content Header (Page header) -->
       <section class="content-header">
         <h1>
-          Program
-          <small>Detail Program</small>
+          Schedule
+          <small>Detail Schedule</small>
         </h1>
       </section>
 
@@ -25,9 +25,9 @@
             <!-- Profile Image -->
             <div class="box box-warning">
               <div class="box-body box-profile">
-                <img class="img-responsive" src="../dist/img/no-image.png" alt="Program Picture">
-                <hr/>
-                <button type="button" class="btn btn-default btn-block" onClick="window.location.href='song-edit.php'">
+                <img class="img-responsive" src="../dist/img/photo1.png" alt="Program Picture">
+                <h3 class="profile-username text-center">Program 7 Hari 7 Malam</h3>
+                <button type="button" class="btn btn-default btn-block" onClick="window.location.href='schedule-edit.php'">
                   <i class="fa fa-edit text-yellow"></i> Edit
                 </button>
               </div>
@@ -44,23 +44,17 @@
               </div>
               <!-- /.box-header -->
               <div class="box-body">
-                <strong>Judul</strong>
-                <p>Ten Kayun Nyentana</p>
+                <strong>Program</strong>
+                <p>Program 7 Hari 7 Malam</p>
                 <hr/>
-                <strong>Artis</strong>
-                <p>Agus D. Nugraha</p>
+                <strong>Crew</strong>
+                <p>Kuluk Mong</p>
                 <hr/>
-                <strong>Album</strong>
-                <p>Pria Sejati 2016</p>
+                <strong>On-Air</strong>
+                <p>Senin, Selasa</p>
                 <hr/>
-                <strong>Rilis</strong>
-                <p>2016</p>
-                <hr/>
-                <strong>Genre</strong>
-                <p>Pop Bali - Tabanan - Beraban</p>
-                <hr/>
-                <strong>Kategori</strong>
-                <p>Galau</p>
+                <strong>Off-Air</strong>
+                <p>Rabu, Kamis, Jumat, Sabtu, Minggu</p>
               </div>
               <!-- /.box-body -->
             </div>

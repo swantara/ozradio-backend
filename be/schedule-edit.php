@@ -34,7 +34,7 @@
                 <div class="form-group">
                   <label>Pilih Jenis Program</label>
                   <select required name="jenis" class="form-control" id="jenis" onchange="myFunction()">
-                    <option value="" disabled selected hidden>Pilih Jenis Program</option>
+                    <option value="" disabled hidden>Pilih Jenis Program</option>
                     <option value="mingguan" >Mingguan</option>
                     <option value="spesial" selected>Spesial</option>
                   </select>
@@ -42,9 +42,9 @@
                 <div class="form-group">
                   <label>Pilih Crew</label>
                   <select required name="nama" class="form-control">
-                    <option value="" disabled selected hidden>Pilih Crew</option>
+                    <option value="" disabled hidden>Pilih Crew</option>
                     <option>Meong</option>
-                    <option>Kuluk Monk</option>
+                    <option selected>Kuluk Monk</option>
                   </select>
 
                 </div>
@@ -78,7 +78,7 @@
                   "<select required name='hari' class='form-control'>" +
                   "<option value='' disabled selected hidden>Pilih Hari</option>" +
                   "<option>Senin</option>" +
-                  "<option>Selasa</option>" +
+                  "<option selected>Selasa</option>" +
                   "<option>Rabu</option>" +
                   "<option>Kamis</option>" +
                   "<option>Jumat</option>" +
@@ -91,7 +91,7 @@
                     "<div class='input-group-addon'>" +
                     "<i class='fa fa-calendar'></i>" +
                     "</div>" +
-                    "<input type='text' class='form-control pull-right' id='datepicker'>" +
+                    "<input type='text' class='form-control pull-right' id='datepicker' value='25/12/2016'>" +
                     "</div>";
 
       if (x.value == 'mingguan') {
@@ -103,8 +103,7 @@
       
     $('#datepicker').datepicker({
         autoclose: true,
-        format: 'dd/mm/yyyy',
-        startDate: '+0d'
+        format: 'dd/mm/yyyy'
       });      
   } 
 

@@ -13,8 +13,8 @@
     <!-- Content Header (Page header) -->
     <section class="content-header">
       <h1>
-        News List
-        <small>Daftar news yang ada di sistem</small>
+        Ponggawa List
+        <small>Daftar ponggawa yang ada di sistem</small>
       </h1>
     </section>
 
@@ -28,19 +28,21 @@
                 <thead>
                 <tr>
                   <th style="width: 10px">No</th>
-                  <th>Judul</th>
-                  <th>Author</th>
+                  <th>Nama</th>
+                  <th>Gender</th>
+                  <th>Birthday</th>
                   <th style="width: 10px">Act</th>
                 </tr>
                 </thead>
                 <tbody>
                 <tr>
                   <td>1</td>
-                  <td>Ten Kayun Nyentana</td>
-                  <td>Agus D. Nugraha</td>
+                  <td>Bungut</td>
+                  <td>Bungut</td>
+                  <td>Deskripsnya bungut</td>
                   <td>
                     <div class="btn-group-vertical">
-                      <button type="button" class="btn btn-default" onClick="window.location.href='news-detail.php'">
+                      <button type="button" class="btn btn-default" onClick="window.location.href='ponggawa-detail.php'">
                         <div class="pull-left">
                           <i class="fa fa-eye"></i> Detail
                         </div>
@@ -55,49 +57,12 @@
                 </tr>
                 <tr>
                   <td>2</td>
-                  <td>2 Istri Cukup</td>
-                  <td>Putu Krisna D.</td>
+                  <td>Meong</td>
+                  <td>Bungut</td>
+                  <td>Deskripsnya meong</td>
                   <td>
                     <div class="btn-group-vertical">
-                      <button type="button" class="btn btn-default" onClick="window.location.href='news-detail.php'">
-                        <div class="pull-left">
-                          <i class="fa fa-eye"></i> Detail
-                        </div>
-                      </button>
-                      <button type="button" class="btn btn-danger" onClick="">
-                        <div class="pull-left">
-                          <i class="fa fa-trash"></i> Delete
-                        </div>
-                      </button>
-                    </div>
-                  </td>
-                </tr>
-                <tr>
-                  <td>3</td>
-                  <td>Aku Siap Berkomitmen</td>
-                  <td>Novarolista Banunaek</td>
-                  <td>
-                    <div class="btn-group-vertical">
-                      <button type="button" class="btn btn-default" onClick="window.location.href='news-detail.php'">
-                        <div class="pull-left">
-                          <i class="fa fa-eye"></i> Detail
-                        </div>
-                      </button>
-                      <button type="button" class="btn btn-danger" onClick="">
-                        <div class="pull-left">
-                          <i class="fa fa-trash"></i> Delete
-                        </div>
-                      </button>
-                    </div>
-                  </td>
-                </tr>
-                <tr>
-                  <td>4</td>
-                  <td>Menunggu Dia Putus</td>
-                  <td>Nyoman</td>
-                  <td>
-                    <div class="btn-group-vertical">
-                      <button type="button" class="btn btn-default" onClick="window.location.href='news-detail.php'">
+                      <button type="button" class="btn btn-default" onClick="">
                         <div class="pull-left">
                           <i class="fa fa-eye"></i> Detail
                         </div>
@@ -113,10 +78,11 @@
                 </tbody>
               </table>
             </div>
-            <div class="box-footer">
-              <a href="news-tambah.php" class="btn btn-default"><i class="fa fa-plus text-green"></i> New News</a>
-            </div>
             <!-- /.box-body -->
+            <!-- /.box-footer -->
+            <div class="box-footer">
+              <a href="ponggawa-tambah.php" class="btn btn-default"><i class="fa fa-plus text-green"></i> Tambah Ponggawa</a>
+            </div>
           </div>
           <!-- /.box -->
         </div>
